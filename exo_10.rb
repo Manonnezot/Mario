@@ -1,8 +1,8 @@
 puts "Ton année de naissance"
 print ">"
 
-birthday = gets.chomp.to_i
-birthday_age = -1
+birth_year = gets.chomp.to_i
 
-birthday.upto(2022) {|n| puts n , (birthday_age += 1)} 
-    
+birth_year.upto(2022) do |i|
+     puts "#{i}, #{i - birth_year}"
+end    

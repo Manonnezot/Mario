@@ -1,13 +1,7 @@
 table = []
 
-50.times {
-    |i| number = i + 1
-    table.append("jean.dupont#{"%02d" % number}@email.fr") }
+50.times do |i| 
+    table.append("jean.dupont#{"%02d" % (i + 1)}@email.fr")
+end 
 
 puts table
-
-
-#créer 50 faux emails
-    #format "jean.dupont.01@email.fr"
-# mettre dans un array
-
